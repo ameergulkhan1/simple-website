@@ -1,0 +1,70 @@
+/* Global styles */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #333;
+}
+
+p {
+  color: #666;
+}
+
+form {
+  margin-top: 20px;
+}
+
+input[type="text"],
+input[type="password"],
+button {
+  padding: 5px;
+  margin: 5px 0;
+  width: 30%;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Home component styles */
+
+.home-container {
+  text-align: center;
+}
+
+.available-items {
+  margin-top: 20px;
+}
+
+/* Registration component styles */
+
+.registration-container {
+  text-align: center;
+}
+
+.registration-message {
+  color: green;
+  font-weight: bold;
+  margin-top: 5px;
+}
